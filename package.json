@@ -26,6 +26,9 @@
     "s3": "^4.4.0",
     "serve": "^11.3.0"
   },
+  "engines" : { 
+    "node" : "<12"
+  },
   "license": "UNLICENSED",
   "name": "phylonames.org",
   "private": true,
