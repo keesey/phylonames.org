@@ -1,5 +1,5 @@
 {
-  "author": "T. Michael Keesey <keesey+phylocode@gmail.com>",
+  "author": "T. Michael Keesey <keesey+phylonames@gmail.com>",
   "browserslist": [
     "ie >= 10",
     "ie_mob >= 10",
@@ -11,7 +11,7 @@
     "android >= 4.4",
     "bb >= 10"
   ],
-  "description": "The website for The International Code of Phylogenetic Nomenclature (The PhyloCode)",
+  "description": "The website of The International Society for Phylogenetic Nomenclature (ISPN)",
   "devDependencies": {
     "autoprefixer": "^9.8.0",
     "cssnano": "^4.1.10",
@@ -27,14 +27,14 @@
     "serve": "^11.3.0"
   },
   "license": "UNLICENSED",
-  "name": "phylocode.org",
+  "name": "phylonames.org",
   "private": true,
-  "repository": "https://github.com/keesey/phylocode.git",
+  "repository": "https://github.com/keesey/phylonames.org.git",
   "scripts": {
     "build": "rm -rf dist && gulp",
     "deploy": "rm -rf dist && gulp && gulp deploy",
     "serve": "gulp watch & serve dist --no-compression --listen 3000",
     "watch": "gulp watch"
   },
-  "version": "1.1.1"
+  "version": "2.0.0-alpha"
 }
